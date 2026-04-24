@@ -1,0 +1,76 @@
+.Port {
+   color: burlywood;
+   position: relative;
+   right: -30px; 
+}
+
+.Hea {
+    display: flex;
+    gap: 30px;
+    position: relative;
+    right: -500px;
+    
+}
+.Get {
+    border: 30px; width: 130px; padding:2px; background-color: orangered;
+    position: relative;
+    right: -600px;
+    color: white;
+}
+
+.Big {
+    display: flex;
+}
+
+.Gets {
+     color: orange;
+     font-size: 10px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     position: relative;
+     right: -300px;
+     bottom: -200px;
+}
+
+.Desi {
+    color:cadetblue;
+    position:relative;
+    right: -300px;
+    bottom: -200px;
+}
+
+.Para {
+    position:relative;
+    right: -300px;
+    bottom: -200px;
+    font-size: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Lea {
+    border: 2px solid orangered; width: 100px; padding: 2px; background-color: orangered;
+    text-align: center;
+    color: white;
+    position:relative;
+    right: -300px;
+    bottom: -200px;
+    
+}
+
+.Hir {
+    border: 2px solid orchid; width: 80px; padding: 2px; 
+    color: black;
+    position:relative;
+    right: -420px;
+    bottom: -143px;
+    text-align: center;
+}
+
+.Pis {
+    position:relative;
+    right: -850px;
+    top: -250px;
+
+}
+
+
+

@@ -1,0 +1,289 @@
+body {
+    background-color: #f0f2f5;
+}
+
+.header1 {
+    display: flex;
+    gap: 20px;
+}
+.header2 {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    right: -100px;
+    top: -4px;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    border: 2px solid white; width: 1500px;
+}
+.circle-number-auto {
+    display: inline-block;
+    padding: 20px;
+    background-color: orange;
+    border-radius: 50%;
+    color: red;
+    font-size: 20px;
+    position: relative;
+    right: -220px;
+    bottom: -60px;
+    font-weight: 700;
+}
+.Next {
+    position: relative;
+    right: -290px; top: -40px;
+    display: flex;
+    gap: 10px;
+}
+.Next p {
+    position: relative;
+    bottom: -10px;
+}
+.check-bullets {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    color: green;
+    font-size: 15px;
+}
+.check-bullets li::before {
+  content: "✅";
+  position: relative;
+  font-size: 15px;
+}
+.On {
+    position: relative;
+    right: -45px; bottom: -12px;
+    list-style: none;
+    z-index: 0.5;
+    font-size: 15px;
+    color: gray;
+}
+.inline-list {
+    position: relative;
+    right: -208px; top: -70px;
+}
+.Data {
+    position: relative;
+    left: -200px;
+    top: -20px;
+}
+.follow {
+    position: relative;
+    right: -1030px; top: -150px;
+    border: 2px solid lightgray;
+    width: 110px; height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0.5;
+}
+.Month {
+    position: relative;
+    right: -200px;
+    bottom: -50px;
+    border: 2px solid white;
+    width: 250px; height: 100px;
+    text-align: left;
+    align-content: center;
+    border-radius: 10px;
+    background-color: grey;
+}
+.All {
+    position: relative;
+    right: -460px;
+    top: -55px;
+    border: 2px solid white;
+    width: 250px; height: 100px;
+    display: inline-block;
+    text-align: left;
+    align-content: center;
+    border-radius: 10px;
+    background-color: grey;
+
+    
+}
+.Rate {
+    position: relative;
+    right: -720px;
+    top: -158px;
+    border: 2px solid white;
+    width: 250px; height: 100px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-radius: 10px;
+    background-color: grey;
+}
+.Rating {
+    position: relative;
+    right: -980px;
+    top: -261px;
+    border: 2px solid white;
+    width: 250px; height: 100px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-radius: 10px;
+    background-color: grey;
+}
+.Name {
+    position: relative;
+    right: -1240px;
+    top: -364px;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 250px; height: 100px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: grey;
+}
+.Report {
+    position: relative;
+    right: -1280px;
+    top: -480px;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 300px; height: 120px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    background-color: orange;
+}
+.Ok {
+    border: 2px solid black;
+    width: 50px; height: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: -1420px;
+    top: -515px;
+
+}
+.Info {
+    border: 2px solid white;
+    width: 1200px; height: 300px;
+    border-radius: 20px;
+    position: relative;
+    right: -200px;
+    bottom: -30px;
+    background-color: white;
+
+}
+.Stats {
+    position: relative;
+    left: -180px; top: -130px;
+    
+}
+.Ad {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    bottom: -40px;
+    right: -30px;
+    color: gray;
+    border-bottom: 2px solid white; width: 1200;
+    
+}
+.Ads {
+    font-weight: 700;
+}
+.Sell {
+    position: relative;
+    bottom: -50px;
+    right: -30px;
+    font-weight: 700;
+}
+.Coin {
+    display: flex;
+    gap: 200px;
+    position: relative;
+    bottom: -130px;
+    right: -230px;
+}
+.Limits {
+    display: flex;
+    gap: 200px;
+    position: relative;
+    left: -180px;
+}
+.USD {
+    position: relative;
+    bottom: -70px;
+    left: -1520px;
+    display: flex;
+    gap: 180px;
+}
+.Limits2 {
+    position: relative;
+    bottom: -60px;
+    left: -1725px;
+    
+}
+.USD h4 {
+    position: relative;
+    top: -15px;
+    left: -30px;
+    color: grey;
+}
+.Limits2 h4 {
+    position: relative;
+    top: -20px;
+    display: flex;
+    gap: 30px;
+    width: 170px;
+
+}
+.BanT {
+    position: relative;
+    left: -1850px;
+    bottom: -80px;
+    font-size: 15px; 
+    border: 2px solid grey;
+    width: 100px;
+    height: 20px;
+    background-color: grey;
+    display: inline-block;
+    flex-shrink: 0;
+    text-align: center;
+    color: light gray;
+    z-index: 0.5;
+}
+.Bu {
+    position: relative;
+    left: -1920px;
+    bottom: -70px;
+    border: 2px solid green;
+    width: 100px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    color: white;
+    font-weight: 700;
+}
+.Box2 {
+    border: 2px solid white;
+    width: 1200px; height: 300px;
+    border-radius: 20px;
+    position: relative;
+    right: -200px;
+    bottom: -60px;
+    background-color: white;
+}
+.Money {
+     position: relative;
+     left: -200px;
+     top: -70px;
+}

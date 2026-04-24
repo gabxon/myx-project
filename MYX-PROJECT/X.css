@@ -1,0 +1,137 @@
+.X-logo {
+    position: relative;
+    bottom: -250px;
+    right: -70px;
+}
+img.El {
+  width: 600px;
+}
+
+.hap {
+    font-size: 35px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.Glogo{
+    display: block;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 60px; width: 300px;
+    height: 40px; display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+    
+}
+.Glogo img {
+    margin-right: 10px;
+
+}
+.Alogo{
+    display: block;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 60px; width: 300px;
+    height: 40px; display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+    
+}
+.Alogo img {
+    margin-right: 10px;
+    
+}
+
+
+.divider-container{
+    width:350px;
+    margin: auto;
+    position: relative;
+    left: -80px;
+    top: -30px;
+    opacity: 0.5;
+}
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+    color: lightgrey;
+
+}
+.divider::before,
+.divider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 2px solid;
+}
+.divider:not(:empty)::before {
+    margin-right: 5px;
+}
+.divider:not(:empty)::after {
+    margin-left: 5px;;
+}
+.Create {
+    background-color: black;
+    color: white;
+    border-radius: 60px; width: 300px;
+    height: 40px; display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -70px;
+}
+p.Terms {
+    position: relative;
+    top: -70px;
+    font-size: 13px;
+}
+.customer {
+    position: relative;
+    top: -70px;
+}
+.groklogo {
+    background-image: url('Grok.png');
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 90px center;
+
+}
+.Right-Box {
+    position: relative;
+    bottom: -50px;
+    right: -50px;
+}
+.Big-Box {
+    display: flex;
+    gap: 200px;
+}
+.Customer {
+    position: relative;
+    top: -70px;
+}
+a:hover {
+    background-color: yellow;
+}
+
+@media(max-width:760px){
+    .X-logo{
+        position: relative;
+        left: -70px;
+        width: 5px;
+        height: 10px;
+    
+    }
+ 
+
+}
+
+

@@ -1,0 +1,118 @@
+.New {
+  position: relative;
+  right: -200px;
+}
+.En {
+    position: relative;
+    right: -880px;
+}
+.First {
+    display: flex;
+    gap: 200px;
+    background-color: black;
+    color:whitesmoke;
+    padding: 1px;
+}
+.E {
+    color: red;
+    font-size: 40PX;
+    font-family:'Courier New', Courier, monospace;
+    position:relative;
+    right: -200px;
+    top: -77px;
+}
+.W {
+    position: relative;
+    right: -200px;
+}
+.H {
+    color: red;
+    position: relative;
+    right: -450px;
+}
+.S {
+    position: relative;
+    right: -550px;
+    display: flex;
+    gap: 30px;
+}
+.M {
+    position: relative;
+    right: -700px;
+}
+.Home {
+    display: flex;
+    text-align: center;
+}
+.Pics {
+    position: relative;
+    top: -140px;
+}
+.Lo {
+    font-family: 'Times New Roman', Times, serif;
+    color:whitesmoke;
+    font-size: 60px;
+    font-style: italic;
+    position:relative;
+    top: -600px;
+    right: -500px;
+}
+.Fun {
+    position: relative;
+    top: -690px;
+    right: -600px;
+    color: whitesmoke;
+}
+.Sh {
+    position: relative;
+    top: -695px;
+    right:-680px;
+    padding: 1px; width: 160px;
+    text-align: center; background-color: azure;
+    opacity:0.9;
+}
+.Orange {
+   position: relative;
+    display: inline-block;
+}
+.Orange img {
+    display:block;
+}
+.overlay-text {
+    position: absolute;
+    top: 70px; right: 40px;
+    color: gold; font-style: italic;
+    font-size: 20px;
+    
+}
+.Empty {
+    border: 2px solid whitesmoke; width: 300px; height: 197px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 0%;
+
+}
+.Purple {
+    position:relative;
+}
+.Dark {
+    position:relative;
+    z-index: -3;
+    
+}
+.Oepd {
+    display: flex;
+    position: relative;
+    top: -500px;
+    right: -70px;
+    gap: 20px;
+}
+.Phone-Box img {
+   position: relative; 
+   top: -1100px;
+   right: -1000px;
+   z-index: 1;
+
+}
+

@@ -1,0 +1,469 @@
+body {
+    background-color: #f0f2f5;
+}
+.esk{
+    color: blueviolet;
+}
+.Adv {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.Adv-title::after {
+   content:"▼";
+   font-size: 10px;
+   margin-left: 6px;
+}
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    width: 500px;
+    gap: 40px;
+}
+.Adv:hover .dropdown {
+    display: flex;
+}
+.column h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.column p {
+    margin: 6px 0;
+    font-size: 14px;
+}
+.Comp {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.Comp-title::after {
+   content:"▼";
+   font-size: 10px;
+   margin-left: 6px;
+}
+.dropdown2 {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    width: 500px;
+    gap: 40px;
+}
+.Comp:hover .dropdown2 {
+    display: flex;
+}
+.column2 h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.column2 p {
+    margin: 6px 0;
+    font-size: 14px;
+}
+.Log a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.demo {
+    border-radius: 120px;
+    padding: 10px;
+    width: 120px;
+    background-color: blueviolet;
+    text-align: center;
+    font-size: 18px;
+}
+.demo a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.cont {
+    border: 2px solid blueviolet;
+    border-radius: 120px;
+    padding: 10px;
+    width: 120px;
+    background-color: white;
+    text-align: center;
+    font-size: 18px;
+}
+.cont a {
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: 600;
+}
+
+.head1 {
+    display: flex;
+    gap: 50px;  
+    
+}
+.head2 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.header {
+    border: 2px solid white;
+    padding: 10px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    border-radius: 120px;
+    width: 1200px;
+    background-color: white;
+    position: relative;
+    bottom: -50px;
+    right: -150px;
+
+}
+.good{
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: -70px;  
+}
+
+.boring {
+    font-size: 90px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    left: -200px; 
+}
+.Our {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: -40px;
+
+}
+.hel {
+    font-size: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+}
+.to {
+    font-size: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imp {
+    font-size: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: -130px;
+}
+.hello {
+    position: relative;
+    bottom: -40px;
+    font-size: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.Fight {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: -20px;
+}
+.on-content {
+    display: none;
+    position: relative;
+    bottom: -20px;
+    left: -50px;
+    
+}
+#toggle:checked ~ .say .off-content {
+  display: none;
+}
+
+#toggle:checked ~ .say .on-content {
+  display: block;
+}
+.click-me {
+    top: -40px;
+    border: 2px solid blueviolet;
+    padding: 30px;
+    width: 200px; 
+    border-radius: 120px;
+    position: relative;
+    right: -270px;
+    top: -170px;
+    color:blueviolet;
+    background-color: aqua;
+}
+.say {
+    text-align: center;
+}
+.Book a {
+    border: 2px solid blueviolet;
+    width: 150px;
+    height: 40px;
+    border-radius: 70px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    color: white;
+    position: relative;
+    right: -700px;
+}
+.Creativity a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.Targeting a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Experts a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Supply a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Impact a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Activation a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ctesia {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    position: relative;
+    bottom: -70px;
+}
+.Darl {
+    color: blueviolet;
+
+}
+
+.check-bullets {
+    display: grid;
+    gap: 30px;
+    font-size: 20px;
+     position: relative;
+    left: -40px;
+}
+.check-bullets li::before {
+    content: "✅";
+    font-size: 20px;
+
+}
+.check-bullets {
+    list-style: none;
+}
+
+.Concept {
+    border: 2px solid whitesmoke;
+    background-color: white;
+    color: black;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+.Design {
+    border: 2px solid whitesmoke;
+    color: black;
+    background-color: white;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+.Development {
+    border: 2px solid whitesmoke;
+    background-color: blueviolet;
+    color: white;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+.Launch {
+    border: 2px solid whitesmoke;
+    color: black;
+    background-color: white;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+.Tracking {
+    border: 2px solid whitesmoke;
+    color: black;
+    background-color: white;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+.Da-box {
+    display: grid;
+    gap: 20px;
+}
+
+.Cddlt {
+    display: grid;
+    gap: 10px;
+    
+}
+
+
+.Big-box {
+    border: 2px solid white;
+    padding: 50px;
+    background-color: white;
+    border-radius: 10px;
+    width: 1100px;
+    display: flex;
+    gap: 40px;
+    position: relative;
+    right: -150px;
+    bottom: -80px; 
+
+}
+
+.logo-marquee {
+    overflow: hidden;
+    padding: 40px;
+    margin-top: 200px;
+}
+.logo-track {
+    display: flex;
+    gap: 60px;
+    width: max-content;
+    animation: scroll 10s linear infinite;
+}
+.logo-track img {
+    height: 40px;
+    opacity: 0.7;
+}
+@keyframes scroll {
+    from { 
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+.jj {
+    background: #0e0f14;
+    color:  #fff;
+    font-family: system-ui, sans-serif;
+}
+.journey {
+    padding: 80px 0;
+}
+.journey-track {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+    position: relative;
+}
+.journey-track::before {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 180px;
+    border: 8px solid transparent;
+    border-top: 8px solid #7b6cff;
+    border-radius: 200px;
+    top: 40px;
+    z-index: 0;
+}
+.step {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+.circle {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 6px solid rgba(255,255,0,0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.step.active .circle {
+    border-color: #7b6cff;
+}
+.dots {
+    width: 8px;
+    height: 8px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 
+    20px 0 white,
+    -20px 0 white,
+    0 20px white,
+    0 -20px white;
+}
+.dot {
+    width: 14px;
+    height: 14px;
+    background: white;
+    border-radius: 50%;
+}
+.overlap {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: rgba(255,255,0,0.5);
+    box-shadow: 18px 0 rgba(255,255,0,0.3);
+}
+.step p {
+    margin-top: 16px;
+    opacity: 0.8;
+}
+.pill {
+    border: 1px solid #7b6cff;
+    padding: 6px 18px;
+    border-radius: 20px;
+    display: inline-block;
+}

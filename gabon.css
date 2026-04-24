@@ -1,0 +1,43 @@
+.bigger{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+.big{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+.medium{
+    background-color:blue;
+    width: 100px;
+    height: 100px;
+}
+
+.small{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin-top: 200px;
+    margin-left: 150px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    padding-left: 100px;
+    padding-right: 200px;
+    position: relative;
+    left: -200px;
+    top: -100px;
+}
+
+.kids{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+.theboss {
+    display: flex;
+    gap: 50px;
+}

@@ -1,0 +1,85 @@
+.Black {
+   color: whitesmoke;
+   position:relative;
+   right: -500px;
+   font-size: 10px;
+}
+
+.Learn {
+    font-size: 10px;
+    position:relative;
+    right: -550px;
+}
+
+.BL {
+    background-color: orangered;
+    display:flex;
+    
+}
+
+.GO {
+    position:relative;
+    bottom: 10px;
+}
+
+.Co {
+    display: flex;
+    gap: 50px;
+    position:relative;
+    right: -50px;
+}
+
+.Ca {
+    display: flex;
+    gap: 50px;
+    position: relative;
+    right: -300px;
+    
+}
+
+.Gca {
+    display: flex;
+    gap: 50px;
+    border: 50px; width: 1800px;
+    background-color:  whitesmoke;
+    
+}
+
+.Dev {
+    font-size: 20px;
+    position:relative;
+    right: -180px;
+}
+.moni {
+    color:blue;
+    position:relative;
+    right: -180px;
+}
+.Para {
+    position:relative;
+    right: -180px;
+}
+
+.Lets {
+    background-color: green;
+    border: solid green; width: 200px; text-align: center;
+    position:relative;
+    right: -180px;
+}
+.Down {
+    position: relative;
+    right: -400px;
+    top: -66px;
+    border: solid black; width: 200px; text-align: center;
+}
+.Dur {
+    position:relative;
+    right: -180px;
+    top: -70px;
+}
+
+.Pis {
+    position: relative;
+    right: -800px;
+    top: -500px;
+}

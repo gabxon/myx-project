@@ -1,0 +1,145 @@
+.Info {
+   background-color:darkslateblue;
+   display:flex;
+   gap: 700px;
+   color: whitesmoke;
+   
+}
+
+.Dim {
+   color:darkblue;
+   position: relative;
+   right: -50px; 
+}
+
+.Ph {
+    position: relative;
+    right: -1030px;
+}
+.App {
+    position:relative;
+    right: -1050px;
+    border: 2px solid yellow; width: 150px;
+    text-align: center; background-color: yellow;
+}
+
+.Dpa {
+    display: flex;
+    position: relative;
+    bottom: -20px;
+    border: 2px solid whitesmoke
+}
+
+.Ho {
+    color:yellow;
+    position: relative;
+    bottom: -30px;
+    right: -50px;
+
+}
+.Ab {
+    position: relative;
+    right: -100px;
+    bottom: -30px;
+    display: flex;
+    gap: 50px;
+}
+
+.Se {
+    position: relative;
+    right: -400px;
+    bottom: -30px;
+
+}
+
+.Has {
+    display: flex;
+    gap: 50px;
+    position: relative;
+    bottom: -20px;
+
+    
+}
+
+
+.search-box {
+    padding: 2px 2px;
+    border: 2px solid;
+    border-radius: 2px 0 0 2px;
+    outline: none;
+    width: 30px;
+}
+.Cho {
+   font-size: 20px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: whitesmoke;
+   position: relative;
+   right: -100px;
+   top: -900px;
+
+}
+
+.Rea {
+    border: 2px solid yellow; width: 100px;
+    text-align: center; background-color: yellowgreen;
+    
+}
+
+.Get {
+    border: 2px solid yellow; width: 100px;
+    text-align: center; background-color: yellowgreen;
+    
+}
+
+.Reg {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    right: -100px;
+    top: -900px;
+}
+
+.Bch{
+    position: relative;
+    bottom: -50px;
+    
+}
+
+.Bigbox {
+   border: 2px blue; width: 1000px; padding: 20px;
+   background-color: darkblue;
+   color: whitesmoke;
+   position: relative;
+   right: -120px;
+   top: -850px;
+    
+}
+
+.Lan {
+    border: 2px blue; width: 100px; padding: 30px;
+    background-color: blue; color: whitesmoke; 
+    text-align: center;
+
+}
+
+.Bus {
+    border: 2px blue; width: 100px; padding: 30px;
+    background-color: greenyellow; color: whitesmoke; 
+    text-align: center;
+
+}
+
+.Lit {
+    border: 2px blue; width: 100px; padding: 30px;
+    background-color: orangered; color: whitesmoke; 
+    text-align: center;
+
+}
+
+.Lbl {
+   display:flex;
+   gap: 30px;
+   position: relative;
+   top: -1000px;
+   right: -550px; 
+}

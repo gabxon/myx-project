@@ -1,0 +1,195 @@
+.Nom {
+    display: flex;
+    gap: 20px;
+}
+.circle-number-auto {
+  display: inline-block;
+  padding: 20px;
+  background: orange;
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 50%;
+  line-height: 1;
+  text-align: center;
+  position: relative;
+  bottom: -30px;
+}
+.check-bullets {
+  list-style: none;
+  padding-left: 0;
+}
+
+.check-bullets li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+
+.check-bullets li::before {
+  content: "✅";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 15px;
+}
+.inline-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;         
+  gap: 20px;             
+}
+
+.inline-list li {
+  display: inline-flex; 
+  align-items: center;
+  gap: 2px;             
+}
+
+.Ava{
+    display: flex;
+    gap: 150px;
+}
+
+.Lim {
+    display : flex;
+    gap: 100px;
+}
+
+.Pay {
+    display : flex;
+    gap: 160px;
+}
+.Meth {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+
+}
+.boxed {
+    padding: 5px; width: 100px;
+    border: solid 2px grey; background-color: grey;
+    display:inline-block;
+    text-align: center;
+    border-radius: 5px;
+
+}
+.Pri {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    right: -700px;
+    top: -700px
+}
+.circle-number{
+    display: inline-block;
+    background-color:brown;
+    padding: 10px;
+    border-radius: 50%;
+    position: relative;
+    bottom: -15px;
+}
+.NG {
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+    position: relative;
+    right: -300px;
+    top: -30px
+}
+.Ngbox{
+    width: 400px; height: 100px;
+    padding: 1px;
+    background-color: lightgray;
+    display:inline-block;
+    position: relative;
+    right: -700px;
+    top: -710px;
+    opacity: 2;
+    border-radius: 5px;
+}
+.Info {
+    color:red;
+    position: relative;
+    top: -730px;
+    right: -700px;
+}
+.Usd {
+   display: flex;
+    gap: 20px;
+    font-size: 15px;
+    position: relative;
+    right: -300px;
+    top: -30px 
+}
+.Usdt {
+    width: 400px; height: 100px;
+    padding: 1px;
+    background-color: lightgray;
+    display:inline-block;
+    opacity: 2;
+    position: relative;
+    top: -730px;
+    right: -700px;
+    border-radius: 5px;
+}
+.BankT {
+    padding: 1px; width: 400px; height: 40px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: left;
+    align-items:center;
+    padding-bottom: 0%;
+    position: relative;
+    top: -730px;
+    right: -700px;
+    border-radius: 5px;
+}
+.Ref {
+    border-radius: 2px; width: 180px;
+    background-color: darkgoldenrod;
+    height: 40px; padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -700px;
+    right: -700px;
+    border-radius: 5px;
+}
+.Can {
+    border: 2px solid gray;
+    height: 40px;
+    display: flex; width: 180px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -700px;
+    right: -700px;
+    border-radius: 5px;
+}
+.Rec {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    bottom: -100px;
+}
+.risk {
+    position: relative;
+    right: -700px;
+    top: -600px;
+    color:grey;
+}
+.Side-box {
+   background-color: lightgray;
+   width: 650px;
+   height: 800px;
+   border-radius: 10px;
+}
+.Allbox {
+    border: 2px solid white;
+    width: 1400px;
+    height: 800px;
+    border-radius: 20px;
+}

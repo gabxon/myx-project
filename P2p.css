@@ -1,0 +1,223 @@
+body {
+    background-color: #f0f2f5;
+}
+.header1 {
+    display: flex;
+    gap: 20px;
+    
+}
+.header2 {
+    display: flex;
+    gap: 20px;
+    opacity: 0.5;
+}
+.header {
+    display: flex;
+    gap: 300px;
+    border: 2px solid lightgrey;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+}
+.circle-number-auto {
+  display: inline-block;
+  padding: 12px;
+  background: rgb(219, 184, 148);
+  color: orange;
+  font-weight: 700;
+  font-size: 30px;
+  border-radius: 50%;
+  line-height: 1;
+  text-align: center;
+  position: relative;
+  bottom: -65px;
+  left: -20px;
+}
+.check-bullets {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  gap: 20px;
+}
+.check-bullets li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+
+.check-bullets li::before {
+  content: "✅";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 15px;
+}
+.User {
+    position: relative;
+    right: -40px;
+    bottom: -10px;
+    font-size: 30px;
+}
+.Info {
+    position: relative;
+    right: -120px;
+    top: -30px;
+}
+.Advertiser {
+    position: relative;
+    right: -650px;
+    bottom: -40px;
+    border: 2px solid orangered; width: 250px; height: 50px;
+    border-radius: 10px;
+    color: orangered;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Informat {
+    display: flex;
+}
+.Complete {
+    border: 2px solid light grey; width: 250px; height: 100px;
+    border-radius: 10px; background-color: gray;
+    display: flex; justify-content: center;
+    font-size: 15px;
+    position: relative; right: -100px;
+    opacity: 0.5;
+}
+.Allcomp {
+    border: 2px solid light grey; width: 220px; height: 100px;
+    border-radius: 10px; background-color: gray;
+    display: flex; justify-content: center; font-size: 15px;
+    position: relative; right: -360px; top: -100px;
+    opacity: 0.5;
+}
+.Rate {
+    border:2px solid light grey; width: 220px; height: 100px;
+    border-radius: 10px; background-color: gray;
+    display: flex; justify-content: center; font-size: 15px;
+    position: relative; right: -600px; top: -200px;
+    opacity: 0.5;
+}
+.Rating {
+    border:2px solid light grey; width: 220px; height: 100px;
+    border-radius: 10px; background-color: gray;
+    display: flex;
+    justify-content: center; align-items: center;
+    position: relative; right: -840px; top: -300px;
+    opacity: 0.5;
+}
+.Verified {
+    border:2px solid light grey; width: 220px; height: 100px;
+    border-radius: 10px; background-color: gray;
+    display: flex; justify-content: center; font-size: 15px;
+    position: relative; right: -1080px; top: -400px;
+    opacity: 0.5;
+}
+.Empty {
+    border: 2px solid light grey; width: 50px; height: 100px;
+    border-radius: 10px; background-color: gray;
+    display: flex; justify-content: center; font-size: 15px;
+    text-align: center;
+    position: relative; right: -1320px; top: -500px;
+    opacity: 0.5;
+}
+.Carrve {
+    border: 2px solid white; width: 1400px; height: 300px;
+    border-radius: 10px; background-color: white;
+    position: relative;
+    right: -50px;
+    bottom: -30px;
+}
+.Coupon h2 {
+   color: grey;
+   font-weight: 700;
+   font-size: 20px;
+   position: relative;
+   right: -100px;
+   bottom: -10px;
+}
+.Coupon p {
+    position: relative;
+    right: -1250px;
+    top: -30px;
+    opacity: 0.5;
+}
+.Coupon {
+    border: 2px solid white; width: 1400px; height: 70px;
+    border-radius: 20px; background-color: white;
+    position: relative;
+    right: -50px;
+    bottom: -50px;
+}
+.Pay {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    bottom: -70px; right: -140px;
+    justify-content: left;
+    align-items: center;
+}
+.Correct {
+    position: relative;
+    bottom: -60px;
+    right: -210px;
+    background-color: orange; width: 1150px; height: 50px;
+    border-radius: 10px;
+    display: flex; justify-content: center;
+    align-items: center;
+    
+}
+.Note {
+    position: relative;
+    bottom: -80px; right: -130px;
+    font-size: 15px;
+    opacity: 0.5;
+}
+.Add {
+    position: relative;
+    right: -1280px; bottom: -35px;
+    border: 2px solid orange; width: 100px;
+    text-align: center; border-radius: 5px; height: 30px;
+    display: flex; justify-content: center;
+    align-items: center; color: orange;
+}
+.Refresh p {
+    position: relative;
+    right: -130px;
+    bottom: -50px;
+    opacity: 0.5;
+}
+.Refresh h3 {
+    position: relative;
+    right: -183px;
+    bottom: -1px;
+    color: orange;
+    font-size: 25px;
+}
+.BankT h3 {
+    position: relative;
+    right: -120px; top: -20px;
+    font-size: 20px;
+    border: 2px solid white; width: 400px; height: 100px;
+    border-radius: 10px; background-color: grey;
+    display: flex; justify-content: left;
+    align-items: left;
+    opacity: 0.5;
+}
+.BankT {
+    display: flex;
+    gap: 20px;
+}
+.Big-Box {
+    border: 2px solid white; width: 1400px;
+    border-radius: 10px; height: 450px;
+    background-color: white;
+    position: relative;
+    right: -50px;
+    bottom: -70px;
+}
+
+
+

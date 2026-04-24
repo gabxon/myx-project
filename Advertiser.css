@@ -1,0 +1,115 @@
+body {
+    background-image: url('Advertiser.jpg');
+}
+.P2P h1 {
+    font-size: 50px;
+    color: white;
+    position: relative;
+    left: -50px;
+}
+.P2P p {
+    font-size: 25px;
+    color: white;
+    position: relative;
+    left: -90px;
+    top: -40px;
+
+}
+.P2P {
+    position: relative;
+    right: -540px;
+    bottom: -50px;
+}
+.Box1 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    position: relative;
+    left: -50px;
+}
+.Box1 {
+    color: white;
+    border: 2px solid orange;
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: -120px;
+    bottom: -100px;
+}
+
+.Box2 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    position: relative;
+    left: -50px;  
+}
+.Box2 {
+    color: white;
+    border: 2px solid orange;
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: -140px;
+    bottom: -100px;
+}
+.Box3 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    position: relative;
+    left: -70px;
+}
+.Box3 {
+    color: white;
+    border: 2px solid orange;
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: -160px;
+    bottom: -100px;
+}
+.check-bullets li::before {
+    content: "✅";
+    font-size: 10px;
+}
+.check-bullets {
+    list-style: none;
+}
+.foot {
+    position: relative;
+    left: -1px;
+    top: -17px;
+    color: orange;
+    width: 400px;
+    height: 50px;
+    background-color: rgb(132, 89, 2);
+    flex-shrink: 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: left;
+    border: 1px solid rgb(132, 89, 2);;
+}
+.foot p {
+    position: relative;
+    right: -30px;
+    font-weight: 700px;
+}
+.Boxes {
+    display: flex;
+}

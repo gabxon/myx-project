@@ -1,0 +1,41 @@
+body {
+    background-color: powderblue;
+}
+
+.Web {
+   color: black;
+   font-size: 30px;
+   position: relative;
+   right: -480px;
+
+
+}
+
+.Easy {
+    color:burlywood;
+    font-size: 30px;
+    position:relative;
+    right: -500px;
+    top: -40px
+
+    
+
+}
+
+.Line {
+  font-size: 20px;  
+  position: relative;
+  right: -500px;
+  padding-bottom: 5px;
+  border: 2px solid white; width: 400px;
+  margin-bottom: 70px;
+  line-height: 2em;
+  letter-spacing: 1px; 
+  
+}
+
+.foo {
+    position: relative;
+    right: -600px;
+    
+}

@@ -1,0 +1,70 @@
+.Quest {
+    color: lightslategray;
+    position: relative;
+    left: 300px;
+    display: inline-block;
+}
+
+.Home {
+    color: lightslategray;
+    position: relative;
+    left: 700px;
+    display: inline-block;
+
+}
+.About{
+    color:lightslategray;
+    position:relative;
+    left: 800px;
+    display: inline-block
+    
+}
+.Courses{
+    color:lightslategray;
+    position:relative;
+    left: 850px;
+    display: inline-block
+
+}
+.Pages{
+    color:lightslategray;
+    position:relative;
+    left: 900px;
+    display: inline-block
+}
+.Blog{
+    color:lightslategray;
+    position:relative;
+    left: 950px;
+    display: inline-block
+}
+
+.Box{
+    color:blue;
+    font-display: block;
+    font-size: large;
+    font-family: 700;
+    margin-top: 200px;
+    margin-left: 300px;
+}
+.Exp {
+    background-color: blue;
+    color: whitesmoke;
+    border: 20px;
+    padding: 2px;
+    margin-left: 300px;
+    display: inline-block;
+}
+.lea {
+    background-color: blue;
+    color: whitesmoke;
+    border: 20px;
+    padding: 2px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.Example{
+    display: flex;
+    gap: 20px;
+}

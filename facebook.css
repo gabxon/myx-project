@@ -1,0 +1,115 @@
+body {
+    background-color: #f0f2f5;
+    font-size: 16px;
+}
+p.Fb {
+    font-size: 70px; font-weight: 600;
+    color: #0866ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+p.Fbc {
+   position: relative; 
+   top: -70px;
+   font-size: 30px;
+}
+.Box{
+    display: flex;
+    gap: 50px;
+}
+.leftbox {
+    position: relative;
+    right: -250px;
+    bottom: -150px;
+}
+.rightbox {
+    position: relative;
+    bottom: -150px;
+    right: -300px;
+}
+.formbox {
+    background-color: white;
+    width: 410px; height: 360px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line {
+    width: 350px;
+    border-top: 2px solid lightgrey;
+    position: relative;
+    bottom: -5px;
+    right: -12px;
+    opacity: 0.5;
+}
+.Signup {
+    background-color: #42b72a; width: 200px;
+    height: 50px; border-radius: 6px;
+    position: relative;
+    bottom: -20px; right: -90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.Page {
+    position: relative;
+    right: -40px;
+    bottom: -10px;
+}
+.input {
+    position: relative;
+    top: -20px;
+}
+a:hover{
+    background-color: yellow;
+}
+
+.Box{
+    display: flex;
+    gap: 100px;
+    position: relative;
+    top: -30px;
+}
+
+@media(max-width:768px){
+   body{
+    background-color: #f0f2f5;
+    font-size: 18px;
+   }
+  .rightbox{
+    position: relative;
+    right: -40px;
+    top: -100px;
+
+}
+   .leftbox{
+    position: relative;
+    bottom: -110px;
+    right: -10px;
+}
+P.Fb{
+    font-size: 55px;
+    position: relative;
+    top: -120px;
+}
+P.Fbc {
+    font-size: 25px;
+    position: relative;
+    top: -170px;
+}
+.Box{
+    text-align: center;
+    flex-direction: column;
+    gap: 50px;
+    position: relative;
+    top: -30px;
+
+}
+.Page {
+    position: relative;
+    left: -40px;
+}
+
+}

@@ -1,0 +1,170 @@
+.header {
+    border-style: 2px solid olivedrab; width: 50%;
+    display:flex;
+    background-color: olive;
+    gap: 120px;
+    text-align: left;
+}
+.header2 {
+    display:flex;
+    background-color: rgb(0, 0, 7);
+    border-style: hidden; width: 50%;
+    gap: 10px;
+    color:whitesmoke;
+    font-size: 10px;
+    text-align: left;  
+}
+.overlay-text {
+    position: relative;
+    top: -400px; right: -250px;
+    color: orange;
+    font-size: 40px;
+    font-style: italic;
+    font-family:cursive;
+}
+.Footer {
+   display: flex;
+   gap: 200px; color: whitesmoke;
+   background-color: rgb(4, 11, 103);
+   position: relative; border-style: hidden;
+   width: 50%;
+   top: -240px;
+}
+.header3 {
+    position: relative;
+    top: -265px; border: 2px solid wheat;
+    border-style: hidden; width: 50%;
+    background-color: rgb(4, 11, 103);
+    color: white; font-style: oblique;
+
+}
+.Pis2 img {
+    position: relative;
+    top: -285px;
+}
+.overlay-text1 {
+    position: relative;
+    top: -480px; right: -70px;
+    color: white;
+}
+.overlay-text2 {
+    position: relative;
+    top: -530px; right: -110px;
+    color: orangered;
+    font-size: 70px;
+}
+.overlay-text3 {
+    position: relative;
+    top: -600px; right: -150px;
+    color: aliceblue; 
+    font-size: 70px;
+}
+.header4 {
+    display: flex;
+    gap: 400px; 
+    border-style:hidden; width: 50%;
+    background-color: lightgray;
+    justify-content: left;
+    align-items: center;
+}
+.header5 {
+    border-style: hidden; width: 50%; height: 70px;
+    background-color: rgb(0, 0, 7);
+    font-size: 30px; color: white;
+    position: relative;
+    top: -10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.Pis3 img {
+    position: relative;
+    top: -10px;
+}
+.overlay-text4 {
+    position: relative;
+    top: -400px; right: -150px;
+    color: white;
+    font-size: 30px;
+}
+.overlay-text5 {
+    position: relative;
+    top: -425px; right: -150px;
+    color: orangered;
+    font-size: 30px;
+}
+.overlay-text6 {
+    position: relative;
+    top: -420px; right: -150px;
+    color:dimgray;
+    font-size: 15px;
+}
+.bos {
+    background-color: orangered;
+    border: 2px solid white; width: 120px; height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -400px; right: -250px;
+}
+.Box-3 {
+    position: relative;
+    top: -1780px; right: -740px;
+    z-index: 1;
+}
+.text {
+    display: flex;
+    gap: 30px;
+    color: red;
+    position: relative;
+    top: -480px; right: -520px;
+    font-size: 10px; font-style: initial;
+}
+.text2 {
+    position: relative;
+    top: -350px; right: -30px;
+    font-size: 30px;
+    color: white;
+}
+.Cons {
+    position: relative;
+    top: -380px; right: -30px;
+    color: white; 
+    border: hidden; width: 150px; height: 50px;
+    background-color: olivedrab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Box-4 {
+    position: relative;
+    top: -290px;
+    z-index: 0.5;
+}
+
+.Box-5 {
+    border-radius: 10%;
+    border: 5px solid orange;
+    width: 700px; height: 250px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: -1400px; left: -360px;
+    z-index: 2;
+}
+.marq {
+    border: 5px solid purple; width: 200px;
+    background-color: brown; height: 100px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    position: relative;
+    top: -1950px; left: -100px;
+}
+
